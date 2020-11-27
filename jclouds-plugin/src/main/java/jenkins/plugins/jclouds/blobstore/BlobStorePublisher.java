@@ -31,6 +31,8 @@ import hudson.tasks.Recorder;
 import hudson.util.CopyOnWriteList;
 import hudson.util.ListBoxModel;
 
+import jenkins.tasks.SimpleBuildStep;
+
 import org.kohsuke.stapler.DataBoundConstructor;
 import org.kohsuke.stapler.StaplerRequest;
 
