@@ -48,7 +48,7 @@ import net.sf.json.JSONObject;
  *
  * @author Vijay Kiran
  */
-public class BlobStorePublisher extends Recorder implements Describable<Publisher> {
+public class BlobStorePublisher extends Recorder implements SimpleBuildStep,Describable<Publisher> {
 
     private static final Logger LOGGER = Logger.getLogger(BlobStorePublisher.class.getName());
 
